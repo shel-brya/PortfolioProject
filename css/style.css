@@ -1,24 +1,44 @@
+:root {
+  --default-button-color: #5c715e;
+}
+
 .header {
   background: #f2f9f1;
   text-align: center;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
-h3 {
+.greeting {
   font-size: 50px;
 }
 
-h1 {
+.name {
   font-size: 100px;
 }
 
-p {
+.header-p {
   font-size: 25px;
 }
 
 .btn-branding {
-  background-color: #5c715e;
+  background-color: var(--default-button-color);
   color: white;
   padding: 10px 8px;
   border-radius: 3px;
+  text-decoration: none;
+}
+
+.app-border {
+  border: 3px solid #b6cdbd;
+  border-radius: 5px;
+  padding: 172px 5px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 65px;
+}
+
+.app-p {
+  font-size: 20px;
 }
