@@ -16,7 +16,7 @@
   font-size: 100px;
 }
 
-.header-p {
+.larger-pfont-size {
   font-size: 25px;
 }
 
@@ -40,5 +40,21 @@
 }
 
 .app-p {
+  font-size: 20px;
+}
+
+.margin-img {
+  margin: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px #3a7563;
+}
+
+.about-portion {
+  padding: 80px;
+  text-align: center;
+  background: #f2f9f1;
+}
+
+.about-p {
   font-size: 20px;
 }
