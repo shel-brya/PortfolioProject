@@ -2,17 +2,23 @@
   --default-button-color: #5c715e;
 }
 
-.header {
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.header,
+.about-portion {
   background: #f2f9f1;
   text-align: center;
   padding: 80px 0;
 }
 
-.greeting {
+.header h3 {
   font-size: 50px;
 }
 
-.name {
+.header h1 {
   font-size: 100px;
 }
 
@@ -29,10 +35,11 @@
 }
 
 .app-border {
-  border: 3px solid #b6cdbd;
+  border: 5px solid #3a7563;
   border-radius: 5px;
-  padding: 172px 5px;
+  padding: 10px 20px;
   text-align: center;
+  background-color: #f2f9f1;
 }
 
 .app-title {
@@ -43,16 +50,14 @@
   font-size: 20px;
 }
 
-.margin-img {
+.headshot-img {
   margin: 50px;
   border-radius: 50px;
   box-shadow: 5px 5px #3a7563;
 }
 
-.about-portion {
-  padding: 80px;
-  text-align: center;
-  background: #f2f9f1;
+.project-img {
+  box-shadow: 5px 5px #3a7563;
 }
 
 .about-p {
