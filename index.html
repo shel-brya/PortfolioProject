@@ -19,6 +19,41 @@
     <title>Homepage</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shelby's Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="header-content">
       <h3>Hi, I am</h3>
       <h1>Shelby Bryant 🤠</h1>
@@ -27,24 +62,23 @@
           Front end developer based in the US. Welcome to my portfolio!
         </p></strong
       >
-      <a href="about.html" class="btn btn-branding">About Me</a>
-      <a href="work.html" class="btn btn-branding">Work Page</a>
-      <a href="contact.html" class="btn btn-branding">Contact Me</a>
     </div>
     <div class="container">
       <p class="text-center larger-pfont-size mt-5 mb-5">
         Featured projects to view and test out
       </p>
+
       <div class="row">
         <div class="col-md-6 d-none d-lg-block">
           <img
             src="images/yoga.png"
-            class="img-fluid project-img rounded"
+            class="img-fluid rounded"
             alt="Woman doing yoga pose"
           />
         </div>
-        <div class="col-md-6">
-          <div class="content-border flex">
+
+        <div class="col-md-6 d-flex flex-column">
+          <div class="content-border flex-grow-1">
             <h2 class="mb-3 mt-5 app-title">Yoga app</h2>
             <p class="app-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,9 +92,10 @@
           </div>
         </div>
       </div>
+
       <div class="row mt-5">
-        <div class="col-md-6">
-          <div class="content-border flex">
+        <div class="col-md-6 d-flex flex-column">
+          <div class="content-border flex-grow-1">
             <h2 class="mb-3 mt-5 app-title">Weather app</h2>
             <p class="app-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -76,7 +111,7 @@
         <div class="col-md-6 d-none d-lg-block">
           <img
             src="images/weather.png"
-            class="img-fluid project-img rounded"
+            class="img-fluid rounded"
             alt="Homepage for weather app"
           />
         </div>
@@ -85,12 +120,12 @@
         <div class="col-md-6 d-none d-lg-block">
           <img
             src="images/yogurt.png"
-            class="img-fluid project-img rounded"
+            class="img-fluid rounded"
             alt="Vanilla yogurt with blueberries"
           />
         </div>
-        <div class="col-md-6">
-          <div class="content-border flex">
+        <div class="col-md-6 d-flex flex-column">
+          <div class="content-border flex-grow-1">
             <h2 class="mb-3 mt-5 app-title">Yogurt app</h2>
             <p class="app-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

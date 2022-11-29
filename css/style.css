@@ -2,6 +2,11 @@
   --default-button-color: #5c715e;
 }
 
+.navbar {
+  background: #b6cdbd;
+  color: #5c715e;
+}
+
 .about-page {
   background-color: #f2f9f1;
 }
@@ -44,7 +49,7 @@
 }
 
 .content-border {
-  border: 5px solid #b6cdbd;
+  border: 2px solid #b6cdbd;
   border-radius: 5px;
   padding: 10px 20px;
   text-align: center;
@@ -63,10 +68,6 @@
   margin: 50px;
   border-radius: 50px;
   box-shadow: 5px 5px #b6cdbd;
-}
-
-.project-img {
-  box-shadow: 5px 5px 5px #b6cdbd;
 }
 
 .about-p {
